@@ -1,0 +1,135 @@
+
+       
+       body {
+               
+                background-size: cover;
+                background-attachment: fixed; /* Makes it stay fixed during scroll */
+            }   
+        .basic {
+            display: flex;           /* Enables flexbox layout */
+            justify-content: flex; /* Aligns items to the right */
+            align-items: center;      /* Vertically centers items */
+            text-align: right;
+            background-color: #242f44;    
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .basic h1 {
+            
+            color:  lightgoldenrodyellow;
+            margin-right: 550px;
+            float: left; /* Adds space between the heading and link */
+            transition: color 0.5s ease, transform 0.5s ease; 
+        }
+        .basic h1:hover{
+            color: black;
+        }
+        .basic a 
+        {
+            color:  lightgoldenrodyellow;            /* Inherits color from surrounding text */
+            text-decoration: none;      /* Removes underline */
+            cursor: default; 
+            margin-right: 22px; 
+            text-align: right;  
+            font-size: larger;    
+            transition: color 0.5s ease, transform 0.5s ease; /* Makes the cursor look like regular text */
+        }
+        .basic a:hover
+        {
+            color: black;
+        }
+        .image
+        {
+            float: left;
+            margin-right: 50px;
+           
+        }
+        .image:hover
+        {
+            background-color:  #242f44;
+            border-radius: 500%;
+            box-shadow: 2px 2px 2px;
+            object-fit: cover;
+        }
+        .image img
+        {
+            border-radius: 70%; /* This will make the image circular */
+            object-fit:fill; 
+        }
+        .intro{
+            text-align: left;
+            margin: left 50px;
+            font-size: x-large;
+            color: #242f44;  
+        }  
+        header
+        {
+            font-family: 'Roboto', sans-serif;
+            color: #242f44;
+            font-size: x-large;
+            
+        }
+        section
+        {
+            text-align: left;
+            margin-left: 20%;
+        }
+        #one:hover{
+            color: lightcoral;
+
+        }
+        footer
+        {
+            text-align: center; /* Center text horizontally */
+            position: fixed; /* Makes footer stick to the bottom */
+            padding: 10px 0; /* Padding for better spacing */
+            bottom: 0;
+            width: 100%;
+            transition: color 0.5s ease, transform 0.5s ease;  /* Smoothly transitions the hover effects */    
+        }
+        footer a{
+            margin-left: 2%;
+        }
+        footer:hover
+        {
+            
+            transform: translateY(-50px);
+        }
+        .two
+        {
+            font-size: xx-large;
+            text-align: left;
+            margin-left: 22%;
+        }
+        #contactForm
+        {
+                text-align: left;
+                font-family: 'Roboto', sans-serif;
+                font-size: x-large;
+                margin-left: 5%;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 40%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 5px 10px 30px #242f44;
+        }
+        .contact-form label{
+
+            color: #242f44;
+
+        }
+        .contact-form button{
+            width: 15%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 5px 10px 30px lightcoral;
+        }
+        .contact-form button:hover
+        {
+            color: lightcoral;
+        }
+    
