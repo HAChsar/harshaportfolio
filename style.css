@@ -56,9 +56,12 @@
             object-fit:fill; 
         }
         .intro{
-            text-align: left;
+            text-align: center;
+            margin-top: 12%;
+            margin-left: 5%;
+            margin-bottom: 20%;
             margin: left 50px;
-            font-size: x-large;
+            font-size: xx-large;
             color: #242f44;  
         }  
         header
